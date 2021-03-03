@@ -12,7 +12,9 @@ export const findByTestAttr = (wrapper, val) => {
 } 
 
 /**
- * 
+ * @params {object} - React component
+ * @params {object} - object containing expectedProps
+ * @returns {string} - notifies you whether the expected proptype value is what is present.
  */
 
  export const checkProps = (component, conformingProps) => {
